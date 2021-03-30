@@ -19,10 +19,10 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "8.9.10",
-        "drupal/core-vendor-hardening": "^8.8",
-        "drupal/dynamic_entity_reference": "^1.11",
-        "drupal/pathauto": "1.7",
-        "drupal/token": "1.7",
+        "drupal/core-vendor-hardening": "9.0.0",
+        "drupal/dynamic_entity_reference": "2.0.0-alpha14",
+        "drupal/pathauto": "1.8.0",
+        "drupal/token": "1.8.0",
         "drupal/webform": "5.23"
     },
     "conflict": {
