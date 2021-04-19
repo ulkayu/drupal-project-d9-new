@@ -23,7 +23,7 @@
         "drupal/dynamic_entity_reference": "^1.11",
         "drupal/pathauto": "1.7",
         "drupal/token": "1.7",
-        "drupal/webform": "5.23"
+        "drupal/webform": "5.24.0"
     },
     "conflict": {
         "drupal/drupal": "*"
