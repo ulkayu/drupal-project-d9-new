@@ -1126,37 +1126,40 @@
     },
     {
         "name": "drupal/ctools",
-        "version": "3.4.0",
-        "version_normalized": "3.4.0.0",
+        "version": "3.5.0",
+        "version_normalized": "3.5.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupalcode.org/project/ctools.git",
-            "reference": "8.x-3.4"
+            "reference": "8.x-3.5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.4.zip",
-            "reference": "8.x-3.4",
-            "shasum": "016ca5abb7ac4ca720352a72e8989f3ef0e20539"
+            "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.5.zip",
+            "reference": "8.x-3.5",
+            "shasum": "0113cd1e787ff3bde088c836c2d79d14136b0013"
         },
         "require": {
-            "drupal/core": "^8.7.7 || ^9"
+            "drupal/core": "^8.8 || ^9"
         },
         "type": "drupal-module",
         "extra": {
             "drupal": {
-                "version": "8.x-3.4",
-                "datestamp": "1585763383",
+                "version": "8.x-3.5",
+                "datestamp": "1618592931",
                 "security-coverage": {
                     "status": "covered",
                     "message": "Covered by Drupal's security advisory policy"
                 }
+            },
+            "branch-alias": {
+                "dev-8.x-3.x": "3.x-dev"
             }
         },
         "installation-source": "dist",
         "notification-url": "https://packages.drupal.org/8/downloads",
         "license": [
-            "GPL-2.0+"
+            "GPL-2.0-or-later"
         ],
         "authors": [
             {
@@ -1420,18 +1423,18 @@
     },
     {
         "name": "drupal/webform",
-        "version": "5.23.0",
-        "version_normalized": "5.23.0.0",
+        "version": "5.24.0",
+        "version_normalized": "5.24.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupalcode.org/project/webform.git",
-            "reference": "8.x-5.23"
+            "reference": "8.x-5.24"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.23.zip",
-            "reference": "8.x-5.23",
-            "shasum": "5d93f2479ac0b69b0eb5b3921d8173a7b3a3a7e5"
+            "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.24.zip",
+            "reference": "8.x-5.24",
+            "shasum": "d7e2d856e840bf7b7ff0b06f80be1f492fe65b7b"
         },
         "require": {
             "drupal/core": "^8.8"
@@ -1472,8 +1475,8 @@
         "type": "drupal-module",
         "extra": {
             "drupal": {
-                "version": "8.x-5.23",
-                "datestamp": "1608855643",
+                "version": "8.x-5.24",
+                "datestamp": "1614791857",
                 "security-coverage": {
                     "status": "covered",
                     "message": "Covered by Drupal's security advisory policy"
@@ -1507,28 +1510,8 @@
                 "role": "Contributor"
             },
             {
-                "name": "fenstrat",
-                "homepage": "https://www.drupal.org/user/362649"
-            },
-            {
-                "name": "jrockowitz",
-                "homepage": "https://www.drupal.org/user/371407"
-            },
-            {
-                "name": "podarok",
-                "homepage": "https://www.drupal.org/user/116002"
-            },
-            {
                 "name": "quicksketch",
                 "homepage": "https://www.drupal.org/user/35821"
-            },
-            {
-                "name": "sanchiz",
-                "homepage": "https://www.drupal.org/user/1671246"
-            },
-            {
-                "name": "tedbow",
-                "homepage": "https://www.drupal.org/user/240860"
             },
             {
                 "name": "torotil",
